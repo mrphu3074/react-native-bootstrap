@@ -4,15 +4,16 @@ import {
   Text,
   Button
 } from 'react-native';
+import { Actions } from 'react-native-router-flux';
+import Icon from 'react-native-vector-icons/Ionicons';
 
-export default ({navigator}) => (
+
+export default () => (
   <View style={styles.container}>
     <Text>HomeScreen</Text>
+    <Icon name={'ios-add'} size={40} />
     <Button title="Go PushScreen" onPress={() => {
-      navigator.push({
-        screen: 'App.Screen.PushScreen',
-        title: 'Push screen'
-      })
+      Actions.pushScreen()
     }} />
   </View>
 );
