@@ -4,11 +4,13 @@ import {
   Text,
   Button
 } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 
-export default ({navigator}) => (
+
+export default () => (
   <View style={styles.container}>
     <Text>PushScreen</Text>
-    <Button title="Back" onPress={() => navigator.pop()} />
+    <Button title="Back" onPress={() => Actions.pop()} />
   </View>
 );
 const styles = {
