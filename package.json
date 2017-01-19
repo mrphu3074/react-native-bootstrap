@@ -9,9 +9,11 @@
     "update-splash": "yo rn-toolbox:assets --splash ./config/splash.psd --ios"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "react": "15.4.2",
     "react-native": "^0.39.2",
     "react-native-fbsdk": "^0.4.0",
+    "react-native-firestack": "^2.3.9",
     "react-native-router-flux": "^3.37.0",
     "react-native-vector-icons": "^3.0.0"
   },

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "989035791008",
+    "firebase_url": "https://me-bau.firebaseio.com",
+    "project_id": "me-bau",
+    "storage_bucket": "me-bau.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989035791008:android:f743cabd7ce2825d",
+        "android_client_info": {
+          "package_name": "com.rnbootstrap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989035791008-83086gaujhlahbdua0an1pm7dfafr50e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXLnChtXi3Bb017t0AqKMCf9hVbNfj0-4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

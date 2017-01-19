@@ -1,4 +1,6 @@
 rootProject.name = 'RNBootstrap'
+include ':react-native-firestack'
+project(':react-native-firestack').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-firestack/android')
 include ':react-native-vector-icons'
 project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
 include ':react-native-fbsdk'
